@@ -4,7 +4,7 @@ In this code along exercise we will be adding style to our pages using external 
 
 ## Steps
 
-1. Fork this repository.
+1. Fork thi repository.
 2. Clone your fork.
 3. cd into the folder for this lab.
 4. Code along with the included video below.
