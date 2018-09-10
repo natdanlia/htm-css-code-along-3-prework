@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css?family=Elsie+Swash+Caps:400,900');
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script|Elsie+Swash+Caps:400,900');
+/* Type selector */
+
+p {/* select all <p> tags */
+  font-size: 1em; /*16px, ?pt, 100%, 1em btw 1em = 16px usually */
+  line-height: 1.5em;
+}
+
+figcaption {
+  /*font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: 'Elsie Swash Caps', cursive;
+   this one line at the bottom is the same as the four lines on the top, its a shorter and cooler way of writing in css.
+   */
+  font: normal 0.75em/1.5em Georgia, 'Elsie Swash Caps', cursive;
+
+  color: rgb(101,	186,	73)	;
+  text-align: right;
+}
+
+.milk-text {
+  font: bold 2.6em 'Elsie Swash Caps', cursive;
+  color: white;
+  text-shadow: 0 2px 3px #000;
+}
+
+#logo {
+  background-color: aqua;
+}
+
+/*decendent Selector*/
+#logo h1 {
+  font-family: 'Clicker Script', cursive;
+}
+
+#logo h2 {
+  font-family: 'Elsie Swash Caps', cursive;
+}
+
+/* Psuedo Selector */
+
+#details a:link{
+  color: green;
+  text-decoration: none;
+}
+
+#details a:visited {
+  color: purple;
+  text-decoration: none;
+}
+
+#details a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#details a:active {
+  color: red
+}
